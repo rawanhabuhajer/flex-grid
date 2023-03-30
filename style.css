@@ -1,0 +1,348 @@
+.container{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    border-width:2px ;
+    border-color: blueviolet;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border-color:black;
+    border-style: solid;
+    border-width: 3px;
+    
+}
+
+nav{
+    width: 800px;
+    height: 50px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:space-between;
+    align-items: center; }
+
+
+.logo{
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+}
+.left {
+    display: flex;
+    margin-left: 15px;
+    justify-content: center;
+}
+.one{
+    margin-right: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;
+    
+}
+.two{
+    
+    margin-right: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;
+}
+.three{
+    margin-right: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;
+}
+
+
+.right {
+    display: flex;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four{
+    margin-left: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;
+}
+.five{
+    margin-left: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;
+}
+.six{
+    margin-left: 10px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 35px;}
+
+.bar{
+    color:rgb(12, 12, 88) ;
+    width: 800px;
+    height: 60px;
+    background-color: rgb(179, 205, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.part1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    
+    
+}
+ul li {
+    margin: 5px;
+    font-size: small;
+    color:rgb(12, 12, 88) ;
+}
+
+.logo2{
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(12, 12, 88);
+    
+}
+.part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.not{margin-right: 10px;}
+
+.not {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(12, 12, 88);
+    border-radius: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(12, 12, 88);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cir{
+    background-color: rgb(12, 12, 88);
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(12, 12, 88);
+}
+.A{
+    width: 600px;
+    height: 100px;
+    background-color: blue;
+
+}
+
+.groups{
+    display: flex;
+    justify-content: start;
+}
+.B{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(165, 48, 178);
+}
+.C{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 161, 30);
+}
+.D{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(216, 90, 119);
+}
+.E{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(234, 242, 83);
+}
+.F{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(156, 55, 196);
+}
+.G{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(28, 196, 242);
+}
+.H {
+    width: 600px;
+    height: 100px;
+    background-color: rgb(12, 150, 165);
+}
+
+
+.containers{
+    width: 1000px;
+    height: 500px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    
+}
+.head {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+}
+.body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+.r{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.input{
+     width: 400px;
+     height: 30px;
+    display: flex;
+    background-color: transparent;
+    border-radius: 50px;
+    outline: none;
+    border-width: 1px;
+    border-color: rgba(202, 202, 202, 0.228);
+}
+
+.header3{
+    width: 1000px;
+    height: 60px;
+    background-color: blueviolet;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.body3{
+    display: flex;
+    flex-direction: row;
+}
+
+.aside3{
+    width: 250px;
+    height: 500px;
+    background-color: rgb(0, 157, 255);
+}
+.main3{
+    width: 550px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-size: small;
+}
+
+.m5{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 1px rgb(213, 213, 213);
+    padding: 10px;
+}
+.m1{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 1px rgb(213, 213, 213);
+    padding: 10px;
+}
+.m2{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 1px rgb(213, 213, 213);
+    padding: 10px;
+}
+.m3{
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 1px rgb(213, 213, 213);
+    padding: 10px;
+}
+.m4 {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 1px rgb(213, 213, 213);
+    padding: 10px;
+}
+.m6 {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 4px 1px rgb(213, 213, 213);
+    padding: 10px;
+}
+
+.c{
+    display: flex;
+    flex-flow: column;
+    list-style-type: none;
+    
+    
+}
+.c li {
+    margin-bottom: 15px;
+    font-size: large;
+    color:rgb(0, 0, 0) ;
+}

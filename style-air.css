@@ -1,0 +1,81 @@
+body {
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #222;
+    max-width: 1300px;
+    margin: 5px auto;
+}
+header{
+     color:  rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.user {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    
+}
+
+   
+
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    box-shadow: rgba(192, 192, 192, 0.363) 0px 0px 2px 2px;
+    height: 40px;
+    border-radius:30px; 
+    margin-left: 90px;           
+}
+
+.icons {
+    display: flex;
+    justify-items: center;
+    align-items:center;
+    
+   
+}
+.line{
+    color: rgb(172, 172, 172);
+}
+.my-hr {
+    border: none;
+    height: 1px;
+    background-color: #b4b4b484;
+    
+  }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.cards{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+    background-color: rgb(255, 249, 192);
+    color: white;
+    padding: 10px;
+    height: 300px;
+    border-radius: 25px;
+    margin-bottom: 150px;
+}
+  

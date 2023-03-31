@@ -284,35 +284,47 @@ flex-wrap: wrap;}
 .container7 {
     width: 400px;
     height: 500px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-columns: repeat(7,fr);
-    justify-content: space-around;
-    align-items: center;
-    
     border: 1px rgb(186, 186, 186) solid;
     border-radius: 20PX;
+    margin-left: 30px;
+    box-shadow: 0px 0px 2 1 rgba(198, 198, 198, 0.68);
+}
+
+.my-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(7,1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.app{
+    font:  sans-serif;
+    grid-column:1/3 ;
+    grid-row:1/2 ;
+    margin-left: 40px;
 
     
-    
-
 }
 .first{
     grid-column:1/2 ;
-    grid-row:1/2 ;
-   margin: 20px;
+    grid-row:2/3 ;
+    margin-left: 20px;
+   
 }
 .last{
     grid-column:2/3 ;
-    grid-row:1/2 ;
+    grid-row:2/3 ;
 }
 .email{
     grid-column:1/2 ;
-    grid-row:2/3 ;
+    grid-row:3/4 ;
     margin: 20px;}
 .job{
     grid-column:2/3 ;
-    grid-row:2/3 ;
+    grid-row:3/4 ;
 }
 .address{
     grid-column:1/3 ;
@@ -337,11 +349,11 @@ flex-wrap: wrap;}
     grid-column:2/3 ;
     grid-row:6/7 ;
 }
-
- 
-  
-  
-  
-
-  
-
+.button {
+float: right;
+margin-right: 45px;
+background-color: rgb(144, 236, 255);
+box-shadow: 0px 0px 2 1 rgba(203, 203, 203, 0.477);
+width: 60px;
+height: 30px;
+border: rgba(222, 222, 222, 0.607) solid 1px ;}
